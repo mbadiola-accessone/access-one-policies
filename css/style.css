@@ -1,0 +1,593 @@
+/* Access One - Estilos CSS para GitHub Pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8fafc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.logo .subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    opacity: 0.8;
+}
+
+/* Main Content */
+main {
+    padding: 2rem 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #4a5568;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Feature Grid */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.feature-card p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Documentation Grid */
+.docs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.doc-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.doc-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.doc-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-color: #667eea;
+}
+
+.doc-card h3 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.doc-card p {
+    color: #4a5568;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.contact h2 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    padding: 1rem;
+    background: #f7fafc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Legal Document Styles */
+.legal-document {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.legal-document h1 {
+    color: #2d3748;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 0.5rem;
+}
+
+.legal-document h2 {
+    color: #2d3748;
+    font-size: 1.8rem;
+    margin: 2.5rem 0 1rem 0;
+    border-left: 4px solid #667eea;
+    padding-left: 1rem;
+}
+
+.legal-document h3 {
+    color: #4a5568;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.legal-document p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+.legal-document ul {
+    margin: 1rem 0 1rem 2rem;
+}
+
+.legal-document li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    color: #4a5568;
+}
+
+.last-updated {
+    color: #718096;
+    font-style: italic;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f7fafc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.highlight {
+    background: #fef5e7;
+    padding: 1rem;
+    border-left: 4px solid #f6ad55;
+    border-radius: 4px;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.warning-box {
+    background: #fed7d7;
+    border: 1px solid #fc8181;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.warning-box p {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #c53030;
+}
+
+.warning-box ul {
+    margin-left: 1rem;
+}
+
+.legal-notice {
+    background: #edf2f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    font-style: italic;
+    color: #4a5568;
+}
+
+/* Release Notes Styles */
+.release-notes {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.version-release {
+    margin-bottom: 3rem;
+}
+
+.version-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #667eea;
+}
+
+.version-header h2 {
+    color: #2d3748;
+    margin: 0;
+}
+
+.release-date {
+    background: #667eea;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.features-section h3 {
+    color: #2d3748;
+    font-size: 1.6rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.feature-group {
+    margin-bottom: 2rem;
+}
+
+.feature-group h4 {
+    color: #4a5568;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f7fafc;
+    border-radius: 8px;
+    border-left: 4px solid #48bb78;
+}
+
+.feature-icon {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.feature-content {
+    line-height: 1.6;
+    color: #4a5568;
+}
+
+.security-section,
+.technical-section,
+.ux-section {
+    margin: 2rem 0;
+}
+
+.security-section .feature-item {
+    border-left-color: #ed8936;
+}
+
+.technical-section .feature-item {
+    border-left-color: #667eea;
+}
+
+.ux-section .feature-item {
+    border-left-color: #9f7aea;
+}
+
+.support-section {
+    background: #f7fafc;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+}
+
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.support-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.support-card h3 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.installation-section {
+    margin: 3rem 0;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.requirements-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.requirement-item {
+    padding: 0.8rem;
+    background: #f7fafc;
+    border-radius: 6px;
+    color: #4a5568;
+}
+
+.update-info p {
+    margin-bottom: 0.8rem;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.roadmap-section {
+    margin: 3rem 0;
+}
+
+.roadmap-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.roadmap-item {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.roadmap-version {
+    background: #667eea;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    align-self: flex-start;
+}
+
+.roadmap-content h4 {
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.roadmap-content ul {
+    margin-left: 1rem;
+}
+
+.roadmap-content li {
+    color: #4a5568;
+    margin-bottom: 0.3rem;
+}
+
+.footer-note {
+    background: #edf2f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    font-style: italic;
+    color: #4a5568;
+}
+
+/* Footer */
+footer {
+    background: #2d3748;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer-nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    color: #a0aec0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .logo h1 {
+        font-size: 2rem;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+    
+    .legal-document {
+        padding: 2rem 1.5rem;
+    }
+    
+    .legal-document h1 {
+        font-size: 2rem;
+    }
+    
+    .legal-document h2 {
+        font-size: 1.5rem;
+    }
+    
+    .version-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .docs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .roadmap-item {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .footer-nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .legal-document {
+        padding: 1.5rem 1rem;
+    }
+    
+    .release-notes {
+        padding: 2rem 1rem;
+    }
+    
+    .feature-item {
+        padding: 0.8rem;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+}
