@@ -1,0 +1,12 @@
+{
+  "android": {
+    "version": "1.0.0",
+    "buildNumber": 13,
+    "forceUpdate": false
+  },
+  "ios": {
+    "version": "1.0.0",
+    "buildNumber": 13,
+    "forceUpdate": false
+  }
+}
