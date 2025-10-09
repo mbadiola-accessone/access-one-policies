@@ -1,12 +1,12 @@
 {
   "android": {
     "version": "1.0.0",
-    "buildNumber": 13,
+    "buildNumber": 14,
     "forceUpdate": false
   },
   "ios": {
     "version": "1.0.0",
-    "buildNumber": 13,
+    "buildNumber": 14,
     "forceUpdate": false
   }
 }
