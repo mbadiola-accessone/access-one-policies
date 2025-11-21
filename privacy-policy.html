@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,7 +22,8 @@
         <div class="container">
             <article class="legal-document">
                 <h1>Política de Privacidad</h1>
-                <p class="last-updated">Fecha de última actualización: 19 de septiembre de 2025</p>
+                <p class="last-updated">Fecha de última actualización: 21 de noviembre de 2025</p>
+                <p class="last-updated">Versión: 2.0</p>
 
                 <section>
                     <h2>1. Información que Recopilamos</h2>
@@ -36,91 +36,188 @@
                         <li><strong>Tipo de usuario:</strong> Asegurado o Broker autorizado</li>
                     </ul>
 
-                    <h3>1.2 Información del Plan de Seguro (Solo Asegurados)</h3>
+                    <h3>1.2 Datos Biométricos y Autenticación</h3>
+                    <div class="warning-box">
+                        <p><strong>Importante sobre Autenticación Biométrica:</strong></p>
+                        <ul>
+                            <li><strong>Opción completamente voluntaria:</strong> La autenticación biométrica (huella dactilar/Face ID/reconocimiento facial) es opcional y puede habilitarse o deshabilitarse en cualquier momento</li>
+                            <li><strong>Almacenamiento exclusivamente local:</strong> Sus datos biométricos NUNCA salen de su dispositivo móvil</li>
+                            <li><strong>No recopilamos biometría:</strong> Access One no almacena, transmite, procesa ni tiene acceso a sus datos biométricos reales</li>
+                            <li><strong>Control del sistema operativo:</strong> La verificación biométrica es manejada exclusivamente por su sistema operativo (iOS/Android) utilizando APIs nativas del dispositivo</li>
+                            <li><strong>Credenciales encriptadas:</strong> Solo guardamos sus credenciales de acceso encriptadas localmente en su dispositivo para facilitar el inicio de sesión automático</li>
+                            <li><strong>Desactivación inmediata:</strong> Puede desactivar esta función en cualquier momento desde la sección de Configuración de la aplicación, lo que eliminará las credenciales almacenadas</li>
+                            <li><strong>Sin sincronización en la nube:</strong> Las preferencias de biometría y credenciales guardadas no se sincronizan entre dispositivos</li>
+                        </ul>
+                    </div>
+
+                    <h3>1.3 Información Almacenada Localmente en su Dispositivo</h3>
+                    <p>Para mejorar su experiencia de usuario y permitir funcionalidades como el inicio de sesión rápido, almacenamos de forma segura en su dispositivo:</p>
+                    <ul>
+                        <li><strong>Preferencias de usuario:</strong> Configuraciones personalizadas de la aplicación (tema, idioma, notificaciones)</li>
+                        <li><strong>Datos de sesión:</strong> Token de autenticación temporal que expira después de un período de inactividad</li>
+                        <li><strong>Credenciales encriptadas (solo si habilita biometría):</strong> Sus credenciales de inicio de sesión almacenadas de forma segura con encriptación a nivel del sistema operativo</li>
+                        <li><strong>Configuración de biometría:</strong> Preferencia de si tiene habilitada la autenticación biométrica y qué tipo (huella/Face ID)</li>
+                        <li><strong>Caché temporal de datos:</strong> Información de su plan y beneficios para permitir consulta rápida y funcionamiento offline limitado</li>
+                        <li><strong>Nombre de usuario guardado:</strong> Si activa la opción "Recordar usuario" en la pantalla de inicio de sesión</li>
+                    </ul>
+                    <p class="highlight"><strong>Privacidad garantizada:</strong> Todos estos datos se almacenan exclusivamente en su dispositivo y no son transmitidos a nuestros servidores excepto cuando es necesario para autenticación (credenciales) o para actualizar información de su plan (token de sesión).</p>
+
+                    <h3>1.4 Información del Plan de Seguro (Solo Asegurados)</h3>
                     <ul>
                         <li><strong>Detalles del plan:</strong> Tipo de cobertura, deducibles, copagos</li>
-                        <li><strong>Red de proveedores:</strong> Hospitales dentro de su cobertura</li>
-                        <li><strong>Estado de la cuenta:</strong> Información de pagos y beneficios</li>
-                        <li><strong>Historial de uso:</strong> Acceso a información de cobertura (no información médica personal)</li>
+                        <li><strong>Red de proveedores:</strong> Hospitales y clínicas dentro de su cobertura</li>
+                        <li><strong>Estado de la cuenta:</strong> Información de pagos y beneficios disponibles</li>
+                        <li><strong>Historial de uso:</strong> Acceso a información de cobertura utilizada (no información médica personal o diagnósticos)</li>
+                        <li><strong>Tarjeta digital:</strong> Imagen y datos de su tarjeta de seguro para presentar en centros médicos</li>
                     </ul>
 
-                    <h3>1.3 Información de Cotización (Solo Brokers)</h3>
+                    <h3>1.5 Información de Cotización (Solo Brokers)</h3>
                     <ul>
-                        <li><strong>Datos de cotización:</strong> Información ingresada para generar propuestas de seguros</li>
-                        <li><strong>Actividad de broker:</strong> Consultas realizadas y cotizaciones generadas</li>
-                        <li><strong>Información de clientes potenciales:</strong> Solo datos necesarios para cotización</li>
+                        <li><strong>Datos de cotización:</strong> Información ingresada para generar propuestas de seguros para clientes potenciales</li>
+                        <li><strong>Actividad de broker:</strong> Consultas realizadas, cotizaciones generadas y propuestas enviadas</li>
+                        <li><strong>Información de clientes potenciales:</strong> Solo datos básicos necesarios para cotización (edad, ubicación, tipo de plan deseado)</li>
                     </ul>
 
-                    <h3>1.4 Información Técnica</h3>
+                    <h3>1.6 Información Técnica y de Uso</h3>
                     <ul>
-                        <li>Logs de actividad de la aplicación (para auditoría y seguridad)</li>
-                        <li>Información técnica del dispositivo (modelo, versión del SO)</li>
-                        <li>Datos de rendimiento y errores de la aplicación</li>
+                        <li><strong>Logs de actividad:</strong> Registro de acciones dentro de la aplicación para auditoría de seguridad y soporte técnico</li>
+                        <li><strong>Información del dispositivo:</strong> Modelo del dispositivo, versión del sistema operativo, versión de la aplicación</li>
+                        <li><strong>Datos de rendimiento:</strong> Métricas de velocidad de carga, errores técnicos, crashes de la aplicación</li>
+                        <li><strong>Información de red:</strong> Tipo de conexión (WiFi/datos móviles) para optimizar rendimiento</li>
+                        <li><strong>Interacciones con la aplicación:</strong> Pantallas visitadas, funciones utilizadas (sin contenido específico de datos personales)</li>
                     </ul>
                 </section>
 
                 <section>
                     <h2>2. Cómo Usamos la Información</h2>
-                    <p>Utilizamos la información recopilada exclusivamente para:</p>
+                    <p>Utilizamos la información recopilada exclusivamente para los siguientes propósitos legítimos:</p>
+                    
+                    <h3>2.1 Propósitos Principales</h3>
                     <ul>
-                        <li><strong>Autenticación segura:</strong> Verificar identidad de usuarios pre-autorizados</li>
-                        <li><strong>Mostrar información personalizada:</strong> Presentar datos específicos del plan de seguro</li>
-                        <li><strong>Facilitar cotizaciones:</strong> Permitir a brokers autorizados generar propuestas</li>
-                        <li><strong>Mantener seguridad:</strong> Monitorear accesos y prevenir uso no autorizado</li>
-                        <li><strong>Cumplimiento regulatorio:</strong> Satisfacer requisitos de la industria de seguros</li>
-                        <li><strong>Soporte técnico:</strong> Resolver problemas específicos de la aplicación</li>
+                        <li><strong>Autenticación segura:</strong> Verificar su identidad como usuario pre-autorizado y mantener la seguridad de su cuenta</li>
+                        <li><strong>Mostrar información personalizada:</strong> Presentar datos específicos de su plan de seguro, beneficios y cobertura</li>
+                        <li><strong>Facilitar cotizaciones:</strong> Permitir a brokers autorizados generar propuestas de seguros para clientes potenciales</li>
+                        <li><strong>Inicio de sesión rápido:</strong> Si habilita biometría, usar sus credenciales guardadas para autenticación automática</li>
+                        <li><strong>Funcionalidad offline:</strong> Permitir consulta de información básica sin conexión a internet mediante caché local</li>
                     </ul>
+
+                    <h3>2.2 Propósitos de Seguridad y Calidad</h3>
+                    <ul>
+                        <li><strong>Mantener seguridad:</strong> Monitorear accesos sospechosos, detectar intentos de acceso no autorizado y prevenir fraude</li>
+                        <li><strong>Cumplimiento regulatorio:</strong> Satisfacer requisitos legales de la industria de seguros y autoridades supervisoras</li>
+                        <li><strong>Soporte técnico:</strong> Diagnosticar y resolver problemas técnicos específicos reportados por usuarios</li>
+                        <li><strong>Mejora continua:</strong> Analizar patrones de uso (de forma agregada y anónima) para mejorar funcionalidades</li>
+                        <li><strong>Prevención de errores:</strong> Identificar y corregir bugs, crashes o problemas de rendimiento</li>
+                    </ul>
+
+                    <h3>2.3 Comunicaciones</h3>
+                    <ul>
+                        <li><strong>Notificaciones importantes:</strong> Cambios en su plan, vencimientos, actualizaciones críticas de la aplicación</li>
+                        <li><strong>Soporte al usuario:</strong> Responder a sus consultas y solicitudes de ayuda</li>
+                        <li><strong>Actualizaciones de servicio:</strong> Informar sobre nuevas funcionalidades o mantenimientos programados</li>
+                    </ul>
+                    
+                    <p class="highlight"><strong>No usamos su información para:</strong> Marketing no solicitado, venta a terceros, publicidad dirigida, perfilado automático de decisiones sin supervisión humana.</p>
                 </section>
 
                 <section>
                     <h2>3. Compartir Información</h2>
 
                     <h3>3.1 Principio Fundamental</h3>
-                    <p class="highlight">No vendemos, alquilamos ni compartimos información personal con terceros no autorizados.</p>
+                    <p class="highlight"><strong>Compromiso absoluto:</strong> No vendemos, alquilamos ni compartimos información personal con terceros no autorizados para fines comerciales o de marketing.</p>
 
-                    <h3>3.2 Compartir Autorizado</h3>
-                    <p>Podemos compartir información únicamente:</p>
+                    <h3>3.2 Compartir Autorizado y Necesario</h3>
+                    <p>Podemos compartir información únicamente en las siguientes circunstancias limitadas:</p>
                     <ul>
-                        <li><strong>Con su aseguradora:</strong> Para verificar cobertura y beneficios actualizados</li>
-                        <li><strong>Con proveedores de servicios técnicos:</strong> Que nos ayudan a mantener la plataforma segura</li>
-                        <li><strong>Por requerimiento legal:</strong> Para cumplir con regulaciones de seguros y obligaciones legales</li>
-                        <li><strong>Para proteger derechos:</strong> En caso de investigaciones de fraude o disputas legales</li>
+                        <li><strong>Con su aseguradora:</strong> Para verificar cobertura actualizada, procesar reclamos y validar beneficios en tiempo real</li>
+                        <li><strong>Con proveedores de servicios técnicos:</strong> Empresas que nos ayudan a mantener la infraestructura, hosting, seguridad y análisis (bajo estrictos acuerdos de confidencialidad)</li>
+                        <li><strong>Por requerimiento legal:</strong> Cuando sea obligatorio por ley, orden judicial, o regulaciones de seguros aplicables</li>
+                        <li><strong>Para proteger derechos:</strong> En caso de investigaciones de fraude, disputas legales, o para hacer cumplir nuestros términos de servicio</li>
+                        <li><strong>Con su consentimiento explícito:</strong> En cualquier otra situación, solo con su autorización previa e informada</li>
                     </ul>
 
                     <h3>3.3 Información de Brokers</h3>
-                    <p>Los brokers autorizados solo pueden acceder a herramientas de cotización y no tienen acceso a información personal de otros usuarios.</p>
+                    <p>Los brokers autorizados:</p>
+                    <ul>
+                        <li>Solo pueden acceder a herramientas de cotización y información pública de planes</li>
+                        <li>No tienen acceso a información personal de otros usuarios o asegurados</li>
+                        <li>No pueden ver datos sensibles de cuentas de clientes existentes</li>
+                        <li>Están sujetos a acuerdos de confidencialidad independientes</li>
+                    </ul>
+
+                    <h3>3.4 Transferencias Internacionales</h3>
+                    <p>Sus datos pueden ser procesados en servidores ubicados en Uruguay y potencialmente otros países. En tales casos, garantizamos protecciones equivalentes mediante:</p>
+                    <ul>
+                        <li>Cláusulas contractuales estándar aprobadas</li>
+                        <li>Certificaciones de cumplimiento de proveedores</li>
+                        <li>Encriptación de datos en tránsito y en reposo</li>
+                    </ul>
                 </section>
 
                 <section>
                     <h2>4. Qué NO Recopilamos</h2>
                     <div class="warning-box">
-                        <p>Es importante aclarar que Access One <strong>NO</strong> recopila:</p>
+                        <p><strong>Transparencia total:</strong> Es fundamental que comprenda qué información <strong>NO</strong> recopilamos:</p>
                         <ul>
-                            <li><strong>Información médica personal:</strong> Diagnósticos, tratamientos, o historial médico</li>
-                            <li><strong>Información financiera detallada:</strong> Solo información de deducibles y copagos del plan</li>
-                            <li><strong>Datos de tarjetas de crédito:</strong> Los pagos se procesan a través de sistemas externos seguros</li>
-                            <li><strong>Información de terceros:</strong> No accedemos a contactos, ubicación, o otros datos del dispositivo</li>
+                            <li><strong>Información médica personal:</strong> No recopilamos diagnósticos médicos, tratamientos específicos, historial clínico detallado, ni resultados de exámenes</li>
+                            <li><strong>Datos biométricos reales:</strong> Sus huellas dactilares, mapas faciales de Face ID, o cualquier dato biométrico NUNCA salen de su dispositivo ni son accesibles para nosotros</li>
+                            <li><strong>Información financiera completa:</strong> No almacenamos números de tarjetas de crédito completos, información bancaria, o datos financieros detallados (solo información de deducibles y copagos del plan)</li>
+                            <li><strong>Datos de tarjetas de pago:</strong> Los pagos se procesan a través de pasarelas de pago externas certificadas PCI-DSS; no almacenamos información de tarjetas</li>
+                            <li><strong>Información de terceros no autorizada:</strong> No accedemos a contactos, mensajes, correos, o cualquier información de otras aplicaciones de su dispositivo</li>
+                            <li><strong>Ubicación en segundo plano:</strong> No rastreamos su ubicación cuando la app está cerrada o en segundo plano</li>
+                            <li><strong>Contenido de conversaciones privadas:</strong> No monitoreamos ni grabamos sus llamadas, mensajes o comunicaciones personales</li>
+                            <li><strong>Historial de navegación:</strong> No rastreamos qué sitios web visita fuera de nuestra aplicación</li>
+                            <li><strong>Redes sociales:</strong> No recopilamos información de sus perfiles de redes sociales</li>
+                            <li><strong>Cámara o micrófono:</strong> No accedemos a su cámara o micrófono sin su permiso explícito para funciones específicas</li>
                         </ul>
                     </div>
                 </section>
 
                 <section>
                     <h2>5. Seguridad de los Datos</h2>
-                    <p>Dada la naturaleza sensible de la información de seguros, implementamos medidas de seguridad robustas:</p>
+                    <p>Dada la naturaleza altamente sensible de la información de seguros de salud, implementamos múltiples capas de seguridad robustas y certificadas:</p>
 
-                    <h3>5.1 Medidas Técnicas</h3>
+                    <h3>5.1 Medidas Técnicas de Seguridad</h3>
                     <ul>
-                        <li><strong>Cifrado de extremo a extremo:</strong> Todos los datos se transmiten y almacenan cifrados</li>
-                        <li><strong>Acceso restringido:</strong> Solo personal autorizado puede acceder a sistemas de datos</li>
-                        <li><strong>Monitoreo continuo:</strong> Sistemas de detección de amenazas 24/7</li>
+                        <li><strong>Cifrado de extremo a extremo:</strong> Todos los datos se transmiten usando TLS 1.3 con cifrado AES-256 bits</li>
+                        <li><strong>Cifrado en reposo:</strong> Datos almacenados en servidores están cifrados con estándares de la industria</li>
+                        <li><strong>Tokens de sesión temporales:</strong> Los tokens de autenticación expiran automáticamente después de períodos de inactividad</li>
+                        <li><strong>Acceso restringido:</strong> Solo personal autorizado y con necesidad operativa puede acceder a sistemas de datos</li>
+                        <li><strong>Autenticación multifactor:</strong> Sistemas internos protegidos con MFA obligatorio</li>
+                        <li><strong>Monitoreo continuo:</strong> Sistemas de detección de intrusiones y amenazas operando 24/7</li>
+                        <li><strong>Firewalls avanzados:</strong> Protección perimetral multicapa con reglas estrictas</li>
+                        <li><strong>Logs de auditoría:</strong> Registro completo e inmutable de accesos y modificaciones</li>
                     </ul>
 
                     <h3>5.2 Medidas Organizacionales</h3>
                     <ul>
-                        <li><strong>Auditorías regulares:</strong> Revisiones de seguridad periódicas por terceros</li>
-                        <li><strong>Capacitación del personal:</strong> Entrenamiento continuo en protección de datos</li>
-                        <li><strong>Políticas internas:</strong> Procedimientos estrictos de manejo de información</li>
-                        <li><strong>Cumplimiento regulatorio:</strong> Adherencia a estándares de la industria de seguros</li>
+                        <li><strong>Auditorías regulares:</strong> Revisiones de seguridad trimestrales por auditores independientes certificados</li>
+                        <li><strong>Capacitación obligatoria:</strong> Todo el personal recibe entrenamiento continuo en protección de datos y privacidad</li>
+                        <li><strong>Políticas internas estrictas:</strong> Procedimientos documentados de manejo de información y respuesta a incidentes</li>
+                        <li><strong>Cumplimiento regulatorio:</strong> Adherencia a estándares ISO 27001, SOC 2 Type II, y requisitos de la industria de seguros</li>
+                        <li><strong>Acuerdos de confidencialidad:</strong> Todo el personal firma NDAs vinculantes</li>
+                        <li><strong>Segregación de funciones:</strong> Separación de responsabilidades para prevenir accesos no autorizados</li>
+                        <li><strong>Plan de respuesta a incidentes:</strong> Procedimientos establecidos para detectar, contener y remediar brechas de seguridad</li>
+                    </ul>
+
+                    <h3>5.3 Seguridad en el Dispositivo del Usuario</h3>
+                    <ul>
+                        <li><strong>Almacenamiento seguro iOS/Android:</strong> Utilizamos APIs nativas de Keychain (iOS) y EncryptedSharedPreferences (Android) para proteger datos sensibles</li>
+                        <li><strong>Encriptación a nivel del sistema operativo:</strong> Las credenciales guardadas están protegidas con la misma encriptación que usa el sistema para datos del dispositivo</li>
+                        <li><strong>Aislamiento de aplicación:</strong> Cada instalación tiene un espacio de almacenamiento aislado, inaccesible para otras apps</li>
+                        <li><strong>Limpieza automática:</strong> Al desinstalar la aplicación, todos los datos locales se eliminan automáticamente</li>
+                        <li><strong>Protección contra capturas de pantalla:</strong> En pantallas sensibles, implementamos protección contra capturas en dispositivos compatibles</li>
+                        <li><strong>Sesiones seguras:</strong> Cierre automático de sesión después de períodos de inactividad configurables</li>
+                        <li><strong>Sin almacenamiento en SD externa:</strong> Datos sensibles solo se guardan en almacenamiento interno cifrado</li>
+                    </ul>
+
+                    <h3>5.4 Notificación de Brechas de Seguridad</h3>
+                    <p>En el improbable caso de una brecha de seguridad que afecte sus datos personales:</p>
+                    <ul>
+                        <li>Le notificaremos dentro de las 72 horas de descubrir el incidente</li>
+                        <li>Informaremos qué datos fueron afectados y qué medidas tomamos</li>
+                        <li>Proporcionaremos recomendaciones específicas para proteger su cuenta</li>
+                        <li>Reportaremos a autoridades reguladoras según lo requiera la ley</li>
                     </ul>
                 </section>
 
@@ -129,131 +226,481 @@
 
                     <h3>6.1 Mientras su Cuenta esté Activa</h3>
                     <ul>
-                        <li>Mantenemos su información mientras tenga acceso autorizado al sistema</li>
-                        <li>Los datos de cotización de brokers se conservan según regulaciones de seguros</li>
+                        <li><strong>Datos de perfil:</strong> Mantenemos su información mientras tenga acceso autorizado al sistema</li>
+                        <li><strong>Historial de uso:</strong> Conservamos logs de actividad durante el período de su membresía activa</li>
+                        <li><strong>Datos de cotización (brokers):</strong> Se conservan según regulaciones específicas de seguros (típicamente 7 años)</li>
+                        <li><strong>Preferencias de usuario:</strong> Se mantienen hasta que las modifique o cierre su cuenta</li>
                     </ul>
 
                     <h3>6.2 Después del Cierre de Cuenta</h3>
                     <ul>
-                        <li><strong>Eliminación inmediata:</strong> Datos de sesión y acceso temporal</li>
-                        <li><strong>Retención regulatoria:</strong> Algunos datos pueden conservarse según leyes de seguros (típicamente 7 años)</li>
-                        <li><strong>Eliminación completa:</strong> Tras cumplir períodos regulatorios obligatorios</li>
+                        <li><strong>Eliminación inmediata:</strong> 
+                            <ul>
+                                <li>Datos de sesión y tokens de acceso (inmediatamente al cerrar sesión)</li>
+                                <li>Credenciales guardadas localmente (al desactivar biometría o desinstalar app)</li>
+                                <li>Caché temporal y datos de navegación (según configuración del dispositivo)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Retención regulatoria (típicamente 7 años):</strong>
+                            <ul>
+                                <li>Registros de transacciones y cotizaciones de seguros</li>
+                                <li>Logs de auditoría requeridos por supervisores</li>
+                                <li>Documentación de cumplimiento regulatorio</li>
+                                <li>Información relacionada con disputas legales activas</li>
+                            </ul>
+                        </li>
+                        <li><strong>Eliminación completa:</strong> Después de cumplir todos los períodos de retención legal obligatorios, eliminamos permanentemente sus datos mediante borrado seguro irreversible</li>
+                    </ul>
+
+                    <h3>6.3 Derecho al Olvido</h3>
+                    <p>Puede solicitar la eliminación anticipada de sus datos, sujeto a:</p>
+                    <ul>
+                        <li>No tener obligaciones contractuales pendientes</li>
+                        <li>No estar sujeto a investigaciones legales activas</li>
+                        <li>Cumplimiento de períodos mínimos de retención legal</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>7. Sus Derechos</h2>
+                    <h2>7. Sus Derechos de Privacidad</h2>
 
-                    <h3>7.1 Derechos de Acceso</h3>
+                    <h3>7.1 Derechos de Acceso y Control</h3>
+                    <p>Usted tiene los siguientes derechos sobre su información personal:</p>
                     <ul>
-                        <li><strong>Consultar su información:</strong> Puede revisar qué datos tenemos sobre usted</li>
-                        <li><strong>Corrección de datos:</strong> Puede solicitar corrección de información inexacta</li>
+                        <li><strong>Derecho de acceso:</strong> Puede solicitar una copia completa de todos los datos que tenemos sobre usted</li>
+                        <li><strong>Derecho de rectificación:</strong> Puede solicitar corrección de información inexacta o desactualizada</li>
+                        <li><strong>Derecho de eliminación:</strong> Puede solicitar la eliminación de sus datos (sujeto a obligaciones legales)</li>
+                        <li><strong>Derecho de portabilidad:</strong> Puede solicitar sus datos en formato estructurado y legible por máquina</li>
+                        <li><strong>Derecho de restricción:</strong> Puede solicitar limitar el procesamiento de sus datos en ciertas circunstancias</li>
+                        <li><strong>Derecho de oposición:</strong> Puede oponerse a ciertos tipos de procesamiento de datos</li>
+                        <li><strong>Derecho a retirar consentimiento:</strong> Donde el procesamiento se basa en consentimiento, puede retirarlo en cualquier momento</li>
                     </ul>
 
-                    <h3>7.2 Limitaciones por Regulación</h3>
-                    <p>Algunos datos pueden no ser modificables debido a:</p>
+                    <h3>7.2 Control sobre Biometría</h3>
+                    <p>Específicamente para autenticación biométrica, usted puede:</p>
                     <ul>
-                        <li><strong>Requisitos regulatorios:</strong> Leyes de seguros que requieren mantener registros originales</li>
-                        <li><strong>Auditorías:</strong> Necesidad de mantener trazabilidad para supervisores de seguros</li>
-                        <li><strong>Contratos de seguros:</strong> Información que forma parte de pólizas activas</li>
+                        <li><strong>Habilitar/deshabilitar en cualquier momento:</strong> Vaya a Configuración → Seguridad → Autenticación Biométrica</li>
+                        <li><strong>Eliminar credenciales guardadas:</strong> Al desactivar biometría, las credenciales se eliminan automáticamente</li>
+                        <li><strong>Cambiar de método de autenticación:</strong> Puede volver a usar contraseña en cualquier momento</li>
+                        <li><strong>Usar biometría solo para acciones específicas:</strong> Configure qué acciones requieren autenticación</li>
                     </ul>
 
-                    <h3>7.3 Contacto para Ejercer Derechos</h3>
-                    <p>Para ejercer estos derechos, contacte a nuestro oficial de privacidad con:</p>
+                    <h3>7.3 Limitaciones por Regulación</h3>
+                    <p>Algunos datos pueden no ser modificables o eliminables debido a:</p>
                     <ul>
-                        <li>Identificación válida</li>
-                        <li>Descripción específica de su solicitud</li>
-                        <li>Información de contacto actualizada</li>
+                        <li><strong>Requisitos regulatorios de seguros:</strong> Leyes estatales y federales que requieren mantener registros originales</li>
+                        <li><strong>Obligaciones de auditoría:</strong> Necesidad de mantener trazabilidad completa para supervisores de seguros</li>
+                        <li><strong>Contratos de pólizas activas:</strong> Información que forma parte legal de su contrato de seguro vigente</li>
+                        <li><strong>Disputas legales:</strong> Datos necesarios para defender derechos en litigios activos o potenciales</li>
+                        <li><strong>Prevención de fraude:</strong> Información necesaria para investigaciones de fraude en curso</li>
+                    </ul>
+
+                    <h3>7.4 Cómo Ejercer sus Derechos</h3>
+                    <p>Para ejercer cualquiera de estos derechos, debe:</p>
+                    <ol>
+                        <li><strong>Contactar a nuestro Oficial de Privacidad:</strong> Envíe su solicitud a privacy@access-one.us</li>
+                        <li><strong>Proporcionar identificación válida:</strong> Para verificar su identidad y proteger sus datos</li>
+                        <li><strong>Describir específicamente su solicitud:</strong> Indique claramente qué derecho desea ejercer y sobre qué datos</li>
+                        <li><strong>Incluir información de contacto:</strong> Email y/o teléfono donde podamos responderle</li>
+                    </ol>
+                    <p><strong>Tiempo de respuesta:</strong> Responderemos a su solicitud dentro de 30 días calendario. Si necesitamos más tiempo, le informaremos y explicaremos por qué.</p>
+
+                    <h3>7.5 Derecho a Presentar Quejas</h3>
+                    <p>Si considera que sus derechos de privacidad han sido violados, puede:</p>
+                    <ul>
+                        <li>Contactar directamente a nuestro Oficial de Privacidad</li>
+                        <li>Presentar una queja ante la autoridad de protección de datos de su jurisdicción</li>
+                        <li>Buscar remedios legales según las leyes aplicables</li>
                     </ul>
                 </section>
 
                 <section>
                     <h2>8. Cumplimiento Regulatorio</h2>
 
-                    <h3>8.1 Regulaciones de Seguros</h3>
-                    <p>Access One cumple con:</p>
+                    <h3>8.1 Regulaciones de Seguros Aplicables</h3>
+                    <p>Access One cumple con todas las regulaciones aplicables de la industria de seguros, incluyendo:</p>
                     <ul>
-                        <li>Regulaciones estatales de seguros aplicables</li>
-                        <li>Estándares de protección de datos de la industria</li>
-                        <li>Requisitos de auditoría y supervisión</li>
+                        <li><strong>HIPAA (Health Insurance Portability and Accountability Act):</strong> Protección de información de salud protegida</li>
+                        <li><strong>Regulaciones estatales de seguros:</strong> Requisitos específicos de cada estado donde operamos</li>
+                        <li><strong>Estándares NAIC (National Association of Insurance Commissioners):</strong> Mejores prácticas de la industria</li>
+                        <li><strong>SOX (Sarbanes-Oxley):</strong> Para controles financieros y auditoría</li>
+                        <li><strong>Leyes de protección al consumidor:</strong> Regulaciones específicas de cada jurisdicción</li>
                     </ul>
 
-                    <h3>8.2 Reportes Regulatorios</h3>
-                    <p>Podemos estar obligados a reportar cierta información a:</p>
+                    <h3>8.2 Estándares de Seguridad de Datos</h3>
                     <ul>
-                        <li>Supervisores de seguros estatales</li>
-                        <li>Autoridades regulatorias federales</li>
-                        <li>Auditores externos autorizados</li>
+                        <li><strong>ISO/IEC 27001:</strong> Sistema de gestión de seguridad de la información</li>
+                        <li><strong>SOC 2 Type II:</strong> Controles de seguridad, disponibilidad y confidencialidad</li>
+                        <li><strong>PCI-DSS:</strong> Para cualquier procesamiento de pagos (a través de procesadores certificados)</li>
+                        <li><strong>NIST Cybersecurity Framework:</strong> Marco de referencia para gestión de riesgos</li>
+                    </ul>
+
+                    <h3>8.3 Reportes Regulatorios</h3>
+                    <p>Podemos estar legalmente obligados a reportar cierta información a:</p>
+                    <ul>
+                        <li><strong>Departamentos de Seguros estatales:</strong> Información de operaciones y solvencia</li>
+                        <li><strong>Autoridades regulatorias federales:</strong> Según aplique por tipo de operación</li>
+                        <li><strong>Auditores externos autorizados:</strong> Para verificar cumplimiento</li>
+                        <li><strong>Agencias de aplicación de la ley:</strong> Solo con orden judicial válida</li>
+                    </ul>
+
+                    <h3>8.4 Cooperación con Autoridades</h3>
+                    <p>Cooperamos plenamente con autoridades competentes en:</p>
+                    <ul>
+                        <li>Investigaciones de fraude de seguros</li>
+                        <li>Auditorías regulatorias programadas o sorpresa</li>
+                        <li>Cumplimiento de órdenes judiciales legalmente válidas</li>
+                        <li>Reportes obligatorios de actividades sospechosas</li>
                     </ul>
                 </section>
 
                 <section>
                     <h2>9. Tecnologías de Seguimiento</h2>
 
-                    <h3>9.1 Cookies y Sesiones</h3>
+                    <h3>9.1 Cookies y Almacenamiento Local</h3>
+                    <p>Access One utiliza tecnologías de almacenamiento local de manera muy limitada:</p>
                     <ul>
-                        <li><strong>Cookies de sesión:</strong> Solo para mantener su autenticación durante el uso</li>
-                        <li><strong>No cookies de seguimiento:</strong> No utilizamos cookies publicitarias o de seguimiento de terceros</li>
-                        <li><strong>Analytics básicos:</strong> Solo para entender errores y mejorar rendimiento</li>
+                        <li><strong>Cookies de sesión esenciales:</strong> Solo para mantener su autenticación activa durante el uso de la aplicación (se eliminan al cerrar sesión)</li>
+                        <li><strong>Almacenamiento local (LocalStorage):</strong> Para preferencias de usuario y configuración de la aplicación</li>
+                        <li><strong>Caché de aplicación:</strong> Para permitir funcionalidad offline limitada de consulta de información</li>
                     </ul>
 
-                    <h3>9.2 No Compartimos con Terceros de Marketing</h3>
+                    <h3>9.2 NO Utilizamos</h3>
+                    <p>Es importante destacar que <strong>NO</strong> utilizamos:</p>
                     <ul>
-                        <li>No utilizamos servicios de analytics que vendan datos</li>
-                        <li>No permitimos publicidad de terceros en la aplicación</li>
-                        <li>No compartimos datos con brokers de información</li>
+                        <li><strong>Cookies de seguimiento de terceros:</strong> No permitimos cookies de redes publicitarias o analytics externos que vendan datos</li>
+                        <li><strong>Cookies publicitarias:</strong> No usamos cookies para publicidad dirigida o retargeting</li>
+                        <li><strong>Web beacons o píxeles de seguimiento:</strong> No implementamos tecnologías de seguimiento invisible</li>
+                        <li><strong>Fingerprinting del navegador:</strong> No creamos huellas digitales únicas de su dispositivo</li>
+                        <li><strong>Seguimiento entre sitios (cross-site tracking):</strong> No rastreamos su actividad en otros sitios web</li>
+                    </ul>
+
+                    <h3>9.3 Analytics Básicos</h3>
+                    <p>Utilizamos analytics mínimos y respetuosos de privacidad:</p>
+                    <ul>
+                        <li><strong>Propósito limitado:</strong> Solo para detectar errores técnicos y mejorar rendimiento</li>
+                        <li><strong>Datos agregados:</strong> Toda información se analiza de forma anónima y agregada</li>
+                        <li><strong>Sin identificadores personales:</strong> No vinculamos analytics con su identidad real</li>
+                        <li><strong>Retención corta:</strong> Datos de analytics se eliminan después de 90 días</li>
+                        <li><strong>Sin compartir con terceros:</strong> Los datos de analytics no se venden ni comparten</li>
+                    </ul>
+
+                    <h3>9.4 Control del Usuario</h3>
+                    <p>Usted puede controlar estas tecnologías:</p>
+                    <ul>
+                        <li>Configuración del navegador para eliminar cookies</li>
+                        <li>Configuración de la aplicación para limitar caché</li>
+                        <li>Desactivar analytics en configuraciones de privacidad (cuando esté disponible)</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>10. Menores de Edad</h2>
+                    <h2>10. Permisos del Dispositivo Móvil</h2>
+
+                    <h3>10.1 Permisos Actualmente Requeridos</h3>
+                    <p>La aplicación Access One solicita los siguientes permisos:</p>
+                    
+                    <h4>Permisos Esenciales (obligatorios):</h4>
+                    <ul>
+                        <li><strong>Internet (INTERNET):</strong> 
+                            <ul>
+                                <li><strong>Propósito:</strong> Comunicación con servidores seguros para autenticación y actualización de datos</li>
+                                <li><strong>Cuándo se usa:</strong> Durante login, consulta de cobertura, actualización de información</li>
+                                <li><strong>Puede rechazarse:</strong> No, es esencial para el funcionamiento básico</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h4>Permisos Opcionales:</h4>
+                    <ul>
+                        <li><strong>Autenticación Biométrica (USE_BIOMETRIC, USE_FINGERPRINT en Android / NSFaceIDUsageDescription en iOS):</strong>
+                            <ul>
+                                <li><strong>Propósito:</strong> Permitir inicio de sesión rápido con huella dactilar o Face ID</li>
+                                <li><strong>Cuándo se solicita:</strong> Solo cuando usted elige habilitar esta función</li>
+                                <li><strong>Puede rechazarse:</strong> Sí, la aplicación funciona completamente sin biometría</li>
+                                <li><strong>Cómo desactivar:</strong> Configuración → Seguridad → Desactivar Autenticación Biométrica</li>
+                            </ul>
+                        </li>
+                        <li><strong>Ubicación (NSLocationWhenInUseUsageDescription en iOS, ACCESS_FINE_LOCATION en Android):</strong>
+                            <ul>
+                                <li><strong>Propósito:</strong> Mostrar hospitales, clínicas y proveedores médicos cercanos en el mapa</li>
+                                <li><strong>Cuándo se usa:</strong> Solo cuando abre la función de búsqueda de proveedores por ubicación</li>
+                                <li><strong>Tipo de acceso:</strong> Solo mientras usa la aplicación (nunca en segundo plano)</li>
+                                <li><strong>Puede rechazarse:</strong> Sí, puede buscar proveedores manualmente por dirección</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>10.2 Permisos NO Solicitados (Nunca los pediremos)</h3>
+                    <p>Para su tranquilidad, Access One <strong>NO solicita ni necesita</strong> los siguientes permisos:</p>
+                    <ul>
+                        <li><strong>Cámara:</strong> No accedemos a su cámara</li>
+                        <li><strong>Galería de fotos:</strong> No leemos ni guardamos fotos</li>
+                        <li><strong>Contactos:</strong> No accedemos a su agenda de contactos</li>
+                        <li><strong>Micrófono:</strong> No grabamos audio (permiso comentado en código para funcionalidad futura)</li>
+                        <li><strong>SMS o llamadas:</strong> No leemos mensajes ni hacemos llamadas</li>
+                        <li><strong>Almacenamiento externo:</strong> No accedemos a su SD card ni archivos personales</li>
+                        <li><strong>Calendario:</strong> No leemos ni modificamos eventos de calendario</li>
+                        <li><strong>Bluetooth:</strong> No usamos Bluetooth</li>
+                        <li><strong>NFC:</strong> No usamos comunicación de campo cercano</li>
+                        <li><strong>Ubicación en segundo plano:</strong> No rastreamos su ubicación cuando la app está cerrada</li>
+                    </ul>
+
+                    <h3>10.3 Permisos Preparados para Funcionalidad Futura (Actualmente Deshabilitados)</h3>
+                    <p>Tenemos preparados pero <strong>NO activos</strong> los siguientes permisos para posibles funciones futuras:</p>
+                    <ul>
+                        <li><strong>Micrófono (RECORD_AUDIO):</strong> 
+                            <ul>
+                                <li><strong>Uso planeado:</strong> Asistente de voz / chatbot con entrada por voz</li>
+                                <li><strong>Estado actual:</strong> Comentado en código, NO se solicita</li>
+                                <li><strong>Cuándo se activará:</strong> Solo si implementamos esta función Y con notificación explícita</li>
+                            </ul>
+                        </li>
+                        <li><strong>Reconocimiento de voz (SpeechRecognition):</strong>
+                            <ul>
+                                <li><strong>Uso planeado:</strong> Convertir comandos de voz a texto</li>
+                                <li><strong>Estado actual:</strong> Comentado en código, NO se solicita</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="highlight"><strong>Compromiso:</strong> Antes de activar cualquier nuevo permiso, actualizaremos esta política de privacidad y le notificaremos explícitamente, permitiéndole decidir si acepta o no.</p>
+
+                    <h3>10.4 Cómo Gestionar Permisos</h3>
+                    <p>Usted tiene control total sobre los permisos:</p>
+                    
+                    <h4>En iOS:</h4>
+                    <ol>
+                        <li>Vaya a Ajustes → Access One</li>
+                        <li>Verá lista de permisos otorgados</li>
+                        <li>Puede activar/desactivar cada uno individualmente</li>
+                    </ol>
+
+                    <h4>En Android:</h4>
+                    <ol>
+                        <li>Vaya a Configuración → Aplicaciones → Access One → Permisos</li>
+                        <li>Verá lista de permisos con estado (Permitir/Preguntar siempre/Denegar)</li>
+                        <li>Puede modificar cada permiso según su preferencia</li>
+                    </ol>
+
+                    <p><strong>Nota importante:</strong> Revocar el permiso de Internet impedirá que la aplicación funcione correctamente, ya que necesita comunicarse con servidores para autenticación y datos actualizados.</p>
+                </section>
+
+                <section>
+                    <h2>11. Menores de Edad</h2>
+                    
+                    <h3>11.1 Requisitos de Edad</h3>
                     <p>Access One está diseñado exclusivamente para:</p>
                     <ul>
-                        <li><strong>Usuarios mayores de 18 años</strong> con pólizas de seguro propias</li>
-                        <li><strong>Representantes autorizados</strong> de menores con cobertura (con documentación legal)</li>
-                        <li><strong>Brokers licenciados</strong> mayores de 18 años</li>
+                        <li><strong>Adultos mayores de 18 años</strong> con pólizas de seguro propias</li>
+                        <li><strong>Representantes legales autorizados</strong> de menores con cobertura médica (requiere documentación legal válida)</li>
+                        <li><strong>Brokers licenciados</strong> mayores de 18 años con licencia vigente</li>
+                        <li><strong>Padres/tutores</strong> que gestionen planes familiares donde el menor está cubierto</li>
                     </ul>
-                    <p>No recopilamos intencionalmente información de menores de 13 años.</p>
+
+                    <h3>11.2 Protección de Menores</h3>
+                    <ul>
+                        <li><strong>No dirigido a menores de 13 años:</strong> No recopilamos intencionalmente información de niños menores de 13 años</li>
+                        <li><strong>Cumplimiento COPPA:</strong> Si descubrimos que recopilamos datos de menores de 13 años sin consentimiento parental verificable, eliminaremos esa información inmediatamente</li>
+                        <li><strong>Verificación de edad:</strong> El proceso de registro pre-autorizado incluye verificación de edad del titular de la cuenta</li>
+                        <li><strong>Acceso supervisado:</strong> Padres/tutores son responsables del uso que menores hagan de la aplicación bajo su supervisión</li>
+                    </ul>
+
+                    <h3>11.3 Información de Menores Cubiertos</h3>
+                    <p>Cuando un menor está cubierto en un plan familiar:</p>
+                    <ul>
+                        <li>Solo el titular adulto de la cuenta puede acceder a información del menor</li>
+                        <li>Almacenamos únicamente información de cobertura necesaria (no información médica)</li>
+                        <li>Los datos se protegen con los mismos estándares que información de adultos</li>
+                        <li>Padres/tutores pueden solicitar acceso, corrección o eliminación de datos del menor</li>
+                    </ul>
+
+                    <h3>11.4 Derechos de Padres y Tutores</h3>
+                    <p>Si es padre/tutor de un menor cubierto, puede:</p>
+                    <ul>
+                        <li>Revisar qué información tenemos del menor</li>
+                        <li>Solicitar corrección de información incorrecta</li>
+                        <li>Solicitar eliminación de datos (sujeto a requisitos de la póliza)</li>
+                        <li>Revocar consentimiento para recopilación futura</li>
+                    </ul>
+                    <p><strong>Contacto:</strong> Para ejercer estos derechos, contacte a privacy@access-one.us con documentación que acredite su relación legal con el menor.</p>
                 </section>
 
                 <section>
-                    <h2>11. Cambios a Esta Política</h2>
+                    <h2>12. Cambios a Esta Política de Privacidad</h2>
 
-                    <h3>11.1 Notificación de Cambios</h3>
-                    <p>Los cambios importantes se comunicarán mediante:</p>
+                    <h3>12.1 Actualizaciones Regulares</h3>
+                    <p>Esta política de privacidad se revisa y actualiza periódicamente para:</p>
                     <ul>
-                        <li><strong>Notificación en la aplicación:</strong> Alert inmediato al abrir la app</li>
-                        <li><strong>Email:</strong> Si tenemos su dirección de correo autorizada</li>
-                        <li><strong>Portal web:</strong> Publicación en nuestro sitio principal</li>
+                        <li>Reflejar nuevas funcionalidades de la aplicación</li>
+                        <li>Cumplir con cambios en regulaciones de privacidad</li>
+                        <li>Incorporar mejores prácticas de la industria</li>
+                        <li>Responder a feedback de usuarios y autoridades</li>
+                        <li>Mejorar claridad y transparencia</li>
                     </ul>
 
-                    <h3>11.2 Cambios por Regulación</h3>
-                    <p>Podemos actualizar esta política inmediatamente si:</p>
+                    <h3>12.2 Notificación de Cambios Importantes</h3>
+                    <p>Para cambios materiales que afecten cómo procesamos su información, le notificaremos mediante:</p>
                     <ul>
-                        <li>Cambian regulaciones de seguros aplicables</li>
-                        <li>Se requiere por autoridades supervisoras</li>
-                        <li>Es necesario para mantener el cumplimiento legal</li>
+                        <li><strong>Notificación dentro de la aplicación:</strong> Alerta destacada al abrir la app después del cambio</li>
+                        <li><strong>Correo electrónico:</strong> Si tenemos su dirección de correo electrónico registrada</li>
+                        <li><strong>Mensaje SMS:</strong> Para cambios críticos, si tenemos su número telefónico</li>
+                        <li><strong>Portal web:</strong> Publicación destacada en https://access-one.us</li>
+                        <li><strong>Período de gracia:</strong> Al menos 30 días antes de que cambios materiales entren en vigor</li>
+                    </ul>
+
+                    <h3>12.3 Cambios Menores</h3>
+                    <p>Para cambios no materiales (correcciones tipográficas, clarificaciones, actualizaciones de contacto):</p>
+                    <ul>
+                        <li>Actualizaremos la fecha de "última actualización" en la parte superior</li>
+                        <li>Publicaremos la versión actualizada en nuestro sitio web</li>
+                        <li>No requerirá notificación activa a usuarios</li>
+                    </ul>
+
+                    <h3>12.4 Cambios por Requerimiento Legal</h3>
+                    <p>En casos excepcionales, podemos actualizar esta política inmediatamente si:</p>
+                    <ul>
+                        <li><strong>Cambio en regulaciones:</strong> Nueva ley o regulación de seguros entra en vigor</li>
+                        <li><strong>Orden de autoridad regulatoria:</strong> Supervisor de seguros requiere modificaciones específicas</li>
+                        <li><strong>Urgencia de seguridad:</strong> Cambio necesario para proteger la seguridad de datos de usuarios</li>
+                        <li><strong>Orden judicial:</strong> Tribunal ordena cambios específicos en nuestras prácticas</li>
+                    </ul>
+                    <p>En estos casos, notificaremos lo más pronto posible dentro de las restricciones legales.</p>
+
+                    <h3>12.5 Su Aceptación de Cambios</h3>
+                    <p>Al continuar usando Access One después de cambios a esta política:</p>
+                    <ul>
+                        <li>Se considera que acepta la política actualizada</li>
+                        <li>Si no acepta cambios materiales, debe dejar de usar la aplicación</li>
+                        <li>Puede solicitar copia de la versión anterior si la necesita</li>
+                        <li>Tiene derecho a cerrar su cuenta si no está de acuerdo</li>
+                    </ul>
+
+                    <h3>12.6 Historial de Versiones</h3>
+                    <p>Mantenemos un historial de versiones anteriores de esta política:</p>
+                    <ul>
+                        <li>Disponible bajo solicitud a privacy@access-one.us</li>
+                        <li>Incluye fecha efectiva y resumen de cambios principales</li>
+                        <li>Conservado por al menos 3 años después de cada actualización</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>12. Contacto</h2>
-                    <p>Para preguntas sobre esta política de privacidad, contacte con nosotros:</p>
+                    <h2>13. Transferencias de Negocio</h2>
+                    
+                    <h3>13.1 Fusiones, Adquisiciones o Venta</h3>
+                    <p>En caso de que Access One o sus activos sean adquiridos, fusionados o vendidos:</p>
+                    <ul>
+                        <li><strong>Continuidad de protección:</strong> La nueva entidad debe cumplir con esta política de privacidad</li>
+                        <li><strong>Notificación previa:</strong> Le informaremos con al menos 30 días de anticipación</li>
+                        <li><strong>Opción de retiro:</strong> Puede cerrar su cuenta antes de la transferencia</li>
+                        <li><strong>Transferencia selectiva:</strong> Solo se transferirán datos necesarios para continuidad del servicio</li>
+                    </ul>
+
+                    <h3>13.2 Bancarrota o Cierre</h3>
+                    <p>Si Access One cesa operaciones:</p>
+                    <ul>
+                        <li>Los datos de usuarios serán tratados como activo sensible en procedimientos legales</li>
+                        <li>Se respetarán todas las protecciones de esta política durante el proceso</li>
+                        <li>Buscaremos eliminar datos personales si no hay continuidad de servicio</li>
+                        <li>Notificaremos a usuarios según lo permita el proceso legal</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>14. Enlaces a Sitios de Terceros</h2>
+                    
+                    <p>Access One puede contener enlaces a sitios web de:</p>
+                    <ul>
+                        <li>Hospitales y clínicas en su red</li>
+                        <li>Compañías de seguros asociadas</li>
+                        <li>Recursos educativos de salud</li>
+                        <li>Servicios de pago externos</li>
+                    </ul>
+
+                    <p class="highlight"><strong>Importante:</strong> No somos responsables de las prácticas de privacidad de sitios de terceros. Esta política solo aplica a información recopilada por Access One. Le recomendamos leer las políticas de privacidad de cualquier sitio que visite.</p>
+                </section>
+
+                <section>
+                    <h2>15. Información de Contacto y Oficial de Privacidad</h2>
+                    
+                    <h3>15.1 Para Consultas sobre Privacidad</h3>
+                    <p>Si tiene preguntas sobre esta política de privacidad, cómo manejamos sus datos, o desea ejercer sus derechos de privacidad:</p>
+                    
                     <div class="contact-info">
                         <div class="contact-item">
-                            <strong>Email:</strong> itplatform@access-one.us
+                            <strong>Oficial de Privacidad:</strong><br>
+                            Privacy Officer - Access One
                         </div>
                         <div class="contact-item">
-                            <strong>Dirección:</strong> Zonamerica - Uruguay
+                            <strong>Email:</strong> privacy@access-one.us<br>
+                            <em>(Respuesta típica: 24-48 horas hábiles)</em>
                         </div>
                         <div class="contact-item">
-                            <strong>Teléfono:</strong> +598 93 413 969
+                            <strong>Email alternativo (IT/Soporte):</strong> itplatform@access-one.us
+                        </div>
+                        <div class="contact-item">
+                            <strong>Dirección postal:</strong><br>
+                            Access One Privacy Department<br>
+                            Zonamerica<br>
+                            Montevideo, Uruguay
+                        </div>
+                        <div class="contact-item">
+                            <strong>Teléfono:</strong> +598 93 413 969<br>
+                            <em>(Horario: Lunes a Viernes, 9:00 AM - 6:00 PM UYT)</em>
                         </div>
                     </div>
+
+                    <h3>15.2 Para Soporte Técnico</h3>
+                    <p>Para problemas técnicos de la aplicación (no relacionados con privacidad):</p>
+                    <ul>
+                        <li><strong>Email:</strong> itplatform@access-one.us</li>
+                        <li><strong>Portal de soporte:</strong> https://access-one.us/support (disponible próximamente)</li>
+                    </ul>
+
+                    <h3>15.3 Para Reportar Violaciones de Seguridad</h3>
+                    <p>Si sospecha o detecta una violación de seguridad:</p>
+                    <ul>
+                        <li><strong>Email urgente:</strong> security@access-one.us</li>
+                        <li><strong>Teléfono (emergencias):</strong> +598 93 413 969</li>
+                        <li>Respuesta inicial: Dentro de 4 horas hábiles</li>
+                    </ul>
+
+                    <h3>15.4 Tiempo de Respuesta</h3>
+                    <ul>
+                        <li><strong>Consultas generales:</strong> 3-5 días hábiles</li>
+                        <li><strong>Solicitudes de acceso a datos:</strong> 15-30 días calendario</li>
+                        <li><strong>Reportes de violación de seguridad:</strong> Respuesta inmediata (4 horas máximo)</li>
+                        <li><strong>Quejas formales:</strong> Confirmación en 48 horas, investigación completa en 30 días</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>16. Jurisdicción y Ley Aplicable</h2>
+                    
+                    <p>Esta política de privacidad se rige por:</p>
+                    <ul>
+                        <li><strong>Leyes de Uruguay:</strong> Como país donde opera nuestra empresa</li>
+                        <li><strong>Regulaciones de Estados Unidos:</strong> Para operaciones de seguros en jurisdicción estadounidense</li>
+                        <li><strong>Leyes estatales aplicables:</strong> De cada estado donde ofrecemos servicios de seguros</li>
+                        <li><strong>Tratados internacionales:</strong> Convenios de protección de datos entre países aplicables</li>
+                    </ul>
+
+                    <p>En caso de conflicto entre jurisdicciones, prevalecerá la ley más protectora de sus derechos de privacidad.</p>
                 </section>
 
                 <div class="legal-notice">
-                    <p><em>Esta política de privacidad forma parte de nuestros términos de servicio y debe leerse junto con ellos.</em></p>
+                    <h3>Declaración de Compromiso Final</h3>
+                    <p><strong>En Access One, su privacidad no es negociable.</strong> Nos comprometemos a:</p>
+                    <ul>
+                        <li>✓ Nunca vender sus datos personales</li>
+                        <li>✓ Proteger su información con los más altos estándares de seguridad</li>
+                        <li>✓ Ser transparentes sobre nuestras prácticas</li>
+                        <li>✓ Darle control total sobre su información</li>
+                        <li>✓ Responder rápidamente a sus inquietudes</li>
+                        <li>✓ Cumplir y superar todos los requisitos legales de privacidad</li>
+                    </ul>
+                    <p><em>Esta política de privacidad forma parte integral de nuestros <a href="terms-of-service.html">Términos de Servicio</a> y debe leerse en conjunto con ellos.</em></p>
+                    <p><em>Última revisión realizada por nuestro Oficial de Privacidad el 21 de noviembre de 2025.</em></p>
                 </div>
             </article>
         </div>
