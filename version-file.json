@@ -1,12 +1,12 @@
 {
   "android": {
-    "version": "1.0.13",
-    "buildNumber": 27,
+    "version": "1.0.15",
+    "buildNumber": 29,
     "forceUpdate": false
   },
   "ios": {
-    "version": "1.0.13",
-    "buildNumber": 27,
+    "version": "1.0.15",
+    "buildNumber": 29,
     "forceUpdate": false
   }
 }
