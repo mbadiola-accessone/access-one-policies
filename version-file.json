@@ -5,8 +5,8 @@
     "forceUpdate": false
   },
   "ios": {
-    "version": "1.0.15",
-    "buildNumber": 29,
+    "version": "1.0.16",
+    "buildNumber": 30,
     "forceUpdate": false
   }
 }
