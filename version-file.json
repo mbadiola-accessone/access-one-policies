@@ -1,22 +1,22 @@
 {
   "android_test": {
-    "version": "1.0.45",
-    "buildNumber": 59,
+    "version": "1.0.48",
+    "buildNumber": 62,
     "forceUpdate": false
   },
   "android_prod": {
-    "version": "1.0.45",
-    "buildNumber": 59,
+    "version": "1.0.48",
+    "buildNumber": 62,
     "forceUpdate": false
   },
   "ios_test": {
-    "version": "1.0.45",
-    "buildNumber": 59,
+    "version": "1.0.48",
+    "buildNumber": 62,
     "forceUpdate": false
   },
   "ios_prod": {
-    "version": "1.0.45",
-    "buildNumber": 59,
+    "version": "1.0.48",
+    "buildNumber": 62,
     "forceUpdate": false
   }
 }
