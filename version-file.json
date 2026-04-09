@@ -10,13 +10,13 @@
     "forceUpdate": false
   },
   "ios_test": {
-    "version": "1.0.51",
-    "buildNumber": 65,
+    "version": "1.0.52",
+    "buildNumber": 66,
     "forceUpdate": false
   },
   "ios_prod": {
-    "version": "1.0.51",
-    "buildNumber": 65,
+    "version": "1.0.52",
+    "buildNumber": 66,
     "forceUpdate": false
   }
 }
